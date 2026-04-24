@@ -1,0 +1,152 @@
+[
+  {
+    "id": "faq-001",
+    "category": "Compatibility",
+    "question": "Is the AMD Ryzen 9 9950X compatible with DDR4 RAM?",
+    "answer": "No. The Ryzen 9 9950X uses the AM5 socket, which only supports DDR5 RAM. DDR4 RAM is not compatible with any AM5 motherboard. If you are upgrading from an older AMD build and want to reuse DDR4 RAM, you will need to stick with an AM4 platform CPU instead."
+  },
+  {
+    "id": "faq-002",
+    "category": "Compatibility",
+    "question": "Is the AMD Ryzen 7 9700X compatible with DDR4 RAM?",
+    "answer": "No. Like all Ryzen 9000 series CPUs, the Ryzen 7 9700X uses the AM5 socket which only supports DDR5 RAM. DDR4 is not supported on AM5 motherboards."
+  },
+  {
+    "id": "faq-003",
+    "category": "Compatibility",
+    "question": "Can I use an AM4 CPU cooler on an AM5 motherboard?",
+    "answer": "It depends on the cooler. Many cooler manufacturers released AM5 mounting kits for their AM4 coolers, so if your cooler is from a major brand like Noctua, be quiet!, or Corsair, check the manufacturer's website for a free or paid AM5 upgrade kit. Some newer coolers include both AM4 and AM5 mounting hardware in the box. If no AM5 kit is available for your cooler, you will need a new one."
+  },
+  {
+    "id": "faq-004",
+    "category": "Compatibility",
+    "question": "Is the Intel Core Ultra 9 285K compatible with LGA1700 motherboards?",
+    "answer": "No. The Core Ultra 9 285K uses the LGA1851 socket, which is not compatible with LGA1700 motherboards used by 12th, 13th, and 14th generation Intel CPUs. You will need a Z890, B860, or H810 chipset motherboard with an LGA1851 socket."
+  },
+  {
+    "id": "faq-005",
+    "category": "Compatibility",
+    "question": "Can I use the MSI MAG B850 Tomahawk with an AMD Ryzen 7000 series CPU?",
+    "answer": "Yes. The MSI MAG B850 Tomahawk uses the AM5 socket, which is compatible with both Ryzen 7000 and Ryzen 9000 series CPUs. AMD has committed to AM5 socket compatibility across multiple CPU generations, so older Ryzen 7000 CPUs work in B850 motherboards."
+  },
+  {
+    "id": "faq-006",
+    "category": "Compatibility",
+    "question": "Will the RTX 5080 fit in a mid-tower case?",
+    "answer": "It depends on the specific case. The RTX 5080 is a large card and not all mid-tower cases can accommodate it. Before purchasing, check the maximum GPU length supported by your case and compare it to the RTX 5080's dimensions. High-end mid-tower cases from brands like Fractal Design, Lian Li, and be quiet! typically support cards of this size, but always verify before buying."
+  },
+  {
+    "id": "faq-007",
+    "category": "Compatibility",
+    "question": "Is the Crucial T705 NVMe SSD compatible with the MSI MAG B850 Tomahawk?",
+    "answer": "Yes, but you will only get PCIe 4.0 speeds rather than PCIe 5.0. The Crucial T705 is a PCIe 5.0 drive capable of up to 14,500MB/s, but the MSI MAG B850 Tomahawk only supports PCIe 4.0 on its M.2 slots. The drive will still work but will be limited to PCIe 4.0 speeds of around 7,000MB/s. To get full PCIe 5.0 speeds you need a motherboard with a PCIe 5.0 M.2 slot, such as the ASUS ROG Strix X870E."
+  },
+  {
+    "id": "faq-008",
+    "category": "Compatibility",
+    "question": "Can I use the Kingston Fury Beast DDR5-5600 RAM with an Intel LGA1851 motherboard?",
+    "answer": "Yes. The Kingston Fury Beast DDR5-5600 is compatible with LGA1851 motherboards including the Gigabyte Z890 Aorus Elite. DDR5 is the only RAM type supported on LGA1851 platforms. The kit will run at 5600MHz with XMP enabled, which is within the supported speed range for Z890 motherboards."
+  },
+  {
+    "id": "faq-009",
+    "category": "Compatibility",
+    "question": "Does the AMD Radeon RX 9070 XT support DLSS?",
+    "answer": "No. DLSS (Deep Learning Super Sampling) is an NVIDIA-exclusive technology and is not supported on AMD GPUs. The RX 9070 XT supports AMD's equivalent upscaling technology, FSR 4 (FidelityFX Super Resolution 4). FSR 4 is open source and works across a wider range of games than DLSS, but DLSS 4 generally produces higher quality results in supported titles."
+  },
+  {
+    "id": "faq-010",
+    "category": "Compatibility",
+    "question": "Is the Samsung Odyssey G9 compatible with the RTX 5070?",
+    "answer": "The RTX 5070 can connect to and display on the Samsung Odyssey G9, but it is not recommended for gaming at the G9's native 5120x1440 resolution at high frame rates. The G9's 5120x1440 resolution at 240Hz is extremely demanding and the RTX 5070 will struggle to deliver consistently high frame rates in modern games at this resolution. The RTX 5080 is the minimum GPU we recommend for a good gaming experience on the Odyssey G9."
+  },
+  {
+    "id": "faq-011",
+    "category": "Building & Setup",
+    "question": "What PSU wattage do I need for the RTX 5080?",
+    "answer": "NVIDIA recommends a minimum 850W PSU for the RTX 5080. This accounts for the GPU's 360W TDP plus the power draw of the rest of the system including the CPU, storage, and other components. If you are pairing the RTX 5080 with a high-end CPU like the Ryzen 9 9950X or Core Ultra 9 285K, consider a 1000W PSU for additional headroom. Always choose a PSU from a reputable brand with an 80+ Gold rating or higher."
+  },
+  {
+    "id": "faq-012",
+    "category": "Building & Setup",
+    "question": "What PSU wattage do I need for the AMD Radeon RX 9070 XT?",
+    "answer": "AMD recommends a minimum 700W PSU for the RX 9070 XT. For a complete system with a mid-range CPU, a 750W 80+ Gold PSU provides comfortable headroom. If you are pairing it with a high TDP CPU, consider stepping up to an 850W unit."
+  },
+  {
+    "id": "faq-013",
+    "category": "Building & Setup",
+    "question": "How do I install RAM in a motherboard?",
+    "answer": "First, check your motherboard manual for the recommended RAM slot configuration — on most dual-channel boards you should populate slots A2 and B2 (the second and fourth slots) rather than the first and second slots. Open the retention clips on the RAM slots, align the notch on the RAM stick with the notch in the slot, and press down firmly and evenly on both ends until the retention clips click into place. RAM requires more force than most components to seat properly. After booting, enter the BIOS and enable XMP or EXPO to run the RAM at its rated speed."
+  },
+  {
+    "id": "faq-014",
+    "category": "Building & Setup",
+    "question": "Do I need thermal paste when installing a CPU cooler?",
+    "answer": "Most aftermarket CPU coolers include a small tube or pre-applied pad of thermal paste, which is sufficient for installation. If your cooler does not include thermal paste, or if you are reusing an old cooler, you will need to apply thermal paste separately. A pea-sized dot in the centre of the CPU heat spreader is sufficient — the pressure of mounting the cooler will spread it evenly. Do not apply too much as excess paste can spill onto the motherboard."
+  },
+  {
+    "id": "faq-015",
+    "category": "Building & Setup",
+    "question": "What is the correct RAM speed for the AMD Ryzen 9000 series?",
+    "answer": "AMD recommends DDR5-6000 as the sweet spot for Ryzen 9000 series CPUs. At this speed, the memory controller runs in a 1:1 ratio with the memory clock, which provides the best balance of performance and stability. Running RAM faster than 6000MHz is possible but may require manual tuning and can sometimes reduce stability. The Corsair Vengeance DDR5-6000 32GB kit is a reliable choice for Ryzen 9000 builds."
+  },
+  {
+    "id": "faq-016",
+    "category": "Building & Setup",
+    "question": "Can I install a PCIe 5.0 SSD in a PCIe 4.0 slot?",
+    "answer": "Yes. PCIe is backwards compatible, so a PCIe 5.0 SSD like the Crucial T705 will work in a PCIe 4.0 M.2 slot. However, it will be limited to PCIe 4.0 speeds of around 7,000MB/s read rather than its maximum 14,500MB/s. For most users this is still very fast and perfectly usable. To get full PCIe 5.0 speeds you need a motherboard with a PCIe 5.0 M.2 slot."
+  },
+  {
+    "id": "faq-017",
+    "category": "Building & Setup",
+    "question": "How do I know if my PC build will POST?",
+    "answer": "POST (Power On Self Test) is the initial check your PC performs when powered on. If your build POSTs successfully, you will see the motherboard splash screen or BIOS. Common reasons a build fails to POST include: RAM not fully seated, GPU not fully seated, CPU power connector not plugged in, or front panel connectors wired incorrectly. If your build does not POST, start by reseating the RAM as this is the most common cause. Check that all power connectors are firmly attached and that the GPU is fully clicked into the PCIe slot."
+  },
+  {
+    "id": "faq-018",
+    "category": "Building & Setup",
+    "question": "Do I need to install drivers after building a new PC?",
+    "answer": "Yes. After installing your operating system you should install chipset drivers from your motherboard manufacturer's website and GPU drivers from either NVIDIA or AMD. For NVIDIA GPUs, download the latest Game Ready or Studio drivers from nvidia.com. For AMD GPUs, download the Adrenalin software from amd.com which includes both the GPU driver and additional software tools. Windows Update will sometimes install basic GPU drivers automatically but it is always better to install the latest drivers from the manufacturer directly."
+  },
+  {
+    "id": "faq-019",
+    "category": "Products",
+    "question": "What is the difference between the RTX 5080 and the RX 9070 XT?",
+    "answer": "The RTX 5080 and RX 9070 XT are in different performance tiers and price brackets. The RTX 5080 is a high-end card at $999 with 16GB GDDR7 VRAM and a 360W TDP, suited to 4K gaming and demanding workloads. The RX 9070 XT is a mid-range card at $599 with 16GB GDDR6 VRAM and a 304W TDP, suited to 1440p gaming. The RTX 5080 is significantly faster but also significantly more expensive. Both have 16GB VRAM. The RTX 5080 supports DLSS 4 while the RX 9070 XT supports FSR 4."
+  },
+  {
+    "id": "faq-020",
+    "category": "Products",
+    "question": "What is the difference between the RTX 5070 and the RX 9070 XT?",
+    "answer": "The RTX 5070 and RX 9070 XT are direct competitors at similar price points. The key difference is VRAM: the RX 9070 XT has 16GB of GDDR6 while the RTX 5070 has 12GB of GDDR7. Gaming performance at 1440p is broadly similar between the two. The RTX 5070 supports DLSS 4 including multi-frame generation, which can significantly boost frame rates in supported games. The RX 9070 XT's extra VRAM is an advantage for memory-intensive workloads and may offer better longevity as games use more VRAM over time. If DLSS matters to you, choose the RTX 5070. If VRAM matters more, choose the RX 9070 XT."
+  },
+  {
+    "id": "faq-021",
+    "category": "Products",
+    "question": "Is the Dell Ultrasharp U2725D good for gaming?",
+    "answer": "The Dell Ultrasharp U2725D is not primarily designed for gaming. Its 60Hz refresh rate is adequate for casual gaming but will feel noticeably less smooth than a 144Hz or 165Hz gaming monitor in fast-paced titles. It excels at colour accuracy and resolution, making it a better choice for developers, designers, and creative professionals who occasionally game rather than for dedicated gamers. If gaming is your primary use case, the LG 27GP850-B at 165Hz is a better choice."
+  },
+  {
+    "id": "faq-022",
+    "category": "Products",
+    "question": "What is the difference between the Samsung 990 Pro and the WD Black SN850X?",
+    "answer": "Both are high-quality PCIe 4.0 NVMe SSDs with similar real-world performance. The Samsung 990 Pro is available in a 2TB capacity at $149 and includes Samsung Magician software for drive management. The WD Black SN850X is available in 1TB at $89 and is also compatible with PlayStation 5. For a 1TB primary drive on a budget the SN850X offers good value. For larger storage capacity the 990 Pro's 2TB option is competitively priced. Day-to-day performance differences between the two are negligible."
+  },
+  {
+    "id": "faq-023",
+    "category": "Products",
+    "question": "Which CPU is better for gaming, the AMD Ryzen 7 9700X or the Intel Core Ultra 5 245K?",
+    "answer": "Both are competitive mid-range CPUs for gaming. The Ryzen 7 9700X has a lower TDP of 65W making it more power efficient and easier to cool, and it includes a stock cooler. The Core Ultra 5 245K has a higher TDP of 125W and does not include a stock cooler. Gaming performance between the two is broadly similar in most titles. The Ryzen 7 9700X is the better choice if power efficiency and running costs matter, or if you want to avoid buying a separate cooler. The Core Ultra 5 245K pairs with a wider range of Intel ecosystem tools and features."
+  },
+  {
+    "id": "faq-024",
+    "category": "Products",
+    "question": "Is 32GB of RAM enough for gaming in 2025?",
+    "answer": "Yes. 32GB of DDR5 RAM is sufficient for gaming in 2025 and for the foreseeable future. Most games use between 8GB and 16GB of system RAM. 32GB provides headroom for running a browser, Discord, and other background applications alongside your game without performance issues. 64GB is worth considering if you also do content creation, run local AI models, or use your PC as a workstation in addition to gaming."
+  },
+  {
+    "id": "faq-025",
+    "category": "Products",
+    "question": "Do I need a PCIe 5.0 SSD or is PCIe 4.0 fast enough?",
+    "answer": "For most users, PCIe 4.0 is fast enough. The real-world difference between a PCIe 4.0 SSD like the Samsung 990 Pro (7,450MB/s read) and a PCIe 5.0 SSD like the Crucial T705 (14,500MB/s read) is not noticeable in everyday tasks like booting Windows, launching applications, or loading games. PCIe 5.0 SSDs are significantly faster for large sequential file transfers, which matters for video editing and large data workflows. PCIe 5.0 SSDs also run hotter and are more expensive. Unless you regularly transfer very large files, a PCIe 4.0 SSD is the more practical choice."
+  }
+]
