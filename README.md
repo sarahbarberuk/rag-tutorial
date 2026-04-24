@@ -31,5 +31,5 @@ Ask questions like:
 
 - "Which GPU should I buy for machine learning?"
 - "Is the Ryzen 9 9950X compatible with DDR4 RAM?"
-- "What is the warranty on the weather forecast?" — tests the "I don't know" behaviour
-- "What is the returns policy?"
+- "What is the warranty on the weather forecast?" - tests the "I don't know" behavior
+- "What is the returns policy?" - tests when happesn when there are conflicting documents from different dates
