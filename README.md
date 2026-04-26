@@ -1,40 +1,24 @@
-# rag-tutorial
+# PC Emporium RAG Tutorial
+
+This repo contains the sample data for Contentful's RAG tutorial.
+
+## What's in this repo
+
+The `data/` folder contains three types of sample data for PC Emporium, a fictional PC components retailer:
+
+- `data/faqs.json` — product FAQs about compatibility, setup, and components
+- `data/policies/` — company policy documents covering returns, warranties, shipping, and more
+- `data/blog-posts/` — longer-form guides on topics like choosing a GPU and building a PC
+
+## Getting started
+
+Follow the tutorial to build the RAG pipeline yourself. If you get stuck or want to compare your code against a working version, check the `completed` branch.
 
 ## Setup
 
-1. Create .env file and copy .env.example into it. Add your keys.
-2. Create a virtual environment, and activate it:
-
-`python -m venv venv
-source venv/bin/activate`
-
+1. Copy `.env.example` to `.env` and add your OpenAI API key
+2. Create and activate a virtual environment:
+   `python -m venv venv`
+   `source venv/bin/activate`
 3. Install dependencies:
    `pip install -r requirements.txt`
-
-## Ingest
-
-How to run this
-
-`python ingest.py`
-
-## Checking the vector DB
-
-Run this script to take a quick look at a sample of what is now in the vector DB. To check it worked, and for cuuriosity.
-
-`python check_vectordb.py`
-
-## Querying the vector DB
-
-`python query.py`
-
-Ask questions like:
-
-- "Which GPU should I buy for machine learning?"
-- "Is the Ryzen 9 9950X compatible with DDR4 RAM?"
-- "What is the warranty on the weather forecast?" - tests the "I don't know" behavior
-- "What is the returns policy?" - tests when happesn when there are conflicting documents from different dates
-
-## Try the FastAPI web front end
-
-Start the web app
-`uvicorn app:app --reload`
