@@ -34,7 +34,7 @@ Ask questions like:
 - "What is the warranty on the weather forecast?" - tests the "I don't know" behavior
 - "What is the returns policy?" - tests when happesn when there are conflicting documents from different dates
 
-### Try the FastAPI web front end
+## Try the FastAPI web front end
 
 Start the web app
 `uvicorn app:app --reload`
